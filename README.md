@@ -1,7 +1,7 @@
 SimpleExplosionHeal
 ========
 
-A much simpler version of CreeperHeal.
+This is a Craftbukkit plugin. A much simpler version of CreeperHeal.
 
 Usage
 ========
