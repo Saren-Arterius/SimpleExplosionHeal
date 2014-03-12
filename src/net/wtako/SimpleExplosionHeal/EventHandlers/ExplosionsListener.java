@@ -1,6 +1,8 @@
-package src.net.wtako.SimpleExplosionHeal.EventHandlers;
+package net.wtako.SimpleExplosionHeal.EventHandlers;
 
 import java.util.Random;
+
+import net.wtako.SimpleExplosionHeal.Main;
 
 import org.bukkit.Location;
 import org.bukkit.Material;
@@ -8,8 +10,6 @@ import org.bukkit.block.Block;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.entity.EntityExplodeEvent;
-
-import src.net.wtako.SimpleExplosionHeal.Main;
 
 public class ExplosionsListener implements Listener {
 

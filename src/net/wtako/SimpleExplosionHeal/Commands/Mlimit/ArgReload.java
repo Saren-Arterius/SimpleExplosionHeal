@@ -1,9 +1,9 @@
-package src.net.wtako.SimpleExplosionHeal.Commands.Mlimit;
+package net.wtako.SimpleExplosionHeal.Commands.Mlimit;
+
+import net.wtako.SimpleExplosionHeal.Main;
+import net.wtako.SimpleExplosionHeal.Utils.Lang;
 
 import org.bukkit.command.CommandSender;
-
-import src.net.wtako.SimpleExplosionHeal.Main;
-import src.net.wtako.SimpleExplosionHeal.Utils.Lang;
 
 public class ArgReload {
 

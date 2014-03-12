@@ -1,4 +1,4 @@
-package src.net.wtako.SimpleExplosionHeal.Utils;
+package net.wtako.SimpleExplosionHeal.Utils;
 
 import org.bukkit.ChatColor;
 import org.bukkit.configuration.file.YamlConfiguration;

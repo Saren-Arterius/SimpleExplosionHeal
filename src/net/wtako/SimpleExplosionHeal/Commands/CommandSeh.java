@@ -1,10 +1,10 @@
-package src.net.wtako.SimpleExplosionHeal.Commands;
+package net.wtako.SimpleExplosionHeal.Commands;
+
+import net.wtako.SimpleExplosionHeal.Commands.Mlimit.ArgReload;
 
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
-
-import src.net.wtako.SimpleExplosionHeal.Commands.Mlimit.ArgReload;
 
 public class CommandSeh implements CommandExecutor {
 

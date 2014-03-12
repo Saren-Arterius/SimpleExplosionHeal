@@ -1,4 +1,4 @@
-package src.net.wtako.SimpleExplosionHeal;
+package net.wtako.SimpleExplosionHeal;
 
 import java.io.File;
 import java.io.IOException;
@@ -6,12 +6,12 @@ import java.io.InputStream;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
+import net.wtako.SimpleExplosionHeal.Commands.CommandSeh;
+import net.wtako.SimpleExplosionHeal.EventHandlers.ExplosionsListener;
+import net.wtako.SimpleExplosionHeal.Utils.Lang;
+
 import org.bukkit.configuration.file.YamlConfiguration;
 import org.bukkit.plugin.java.JavaPlugin;
-
-import src.net.wtako.SimpleExplosionHeal.Commands.CommandSeh;
-import src.net.wtako.SimpleExplosionHeal.EventHandlers.ExplosionsListener;
-import src.net.wtako.SimpleExplosionHeal.Utils.Lang;
 
 public final class Main extends JavaPlugin {
 
