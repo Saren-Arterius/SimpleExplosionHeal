@@ -1,0 +1,11 @@
+variable:
+    # Disables the plugin.
+    Disable: No
+    # May cause infinite loop, use with caution.
+    AllowTNTChainReaction: No
+    # In ticks
+    HealDelay: 20
+    FullHealTime: 40
+    
+system:
+    PluginVersion: 0.0.1

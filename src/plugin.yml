@@ -1,0 +1,27 @@
+name: SimpleExplosionHeal
+version: 0.0.1
+description: A much simpler version of CreeperHeal.
+author: Saren
+website: https://github.com/Saren-Arterius/SimpleExplosionHeal
+ 
+main: net.wtako.SimpleExplosionHeal.Main
+
+commands:
+    seh:
+        description: Basic command.
+        usage: Type /<command> to use this plugin.
+        permission: SimpleExplosionHeal.admin
+        permission-message: You are not permitted to use this plugin.
+
+permissions:
+    SimpleExplosionHeal.*:
+        description: Gives access to all SimpleExplosionHeal commands.
+        default: op
+    SimpleExplosionHeal.admin:
+        description: Gives access to all SimpleExplosionHeal administrative commands.
+        children:
+            SimpleExplosionHeal.reload: true
+        default: op
+    SimpleExplosionHeal.reload:
+        description: Reloads the plugin.
+        default: op
