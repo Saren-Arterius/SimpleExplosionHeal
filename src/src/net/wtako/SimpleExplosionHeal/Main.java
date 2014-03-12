@@ -25,7 +25,7 @@ public final class Main extends JavaPlugin {
         Main.instance = this;
         saveDefaultConfig();
         getConfig().options().copyDefaults(true);
-        getCommand("mlimit").setExecutor(new CommandSeh());
+        getCommand("seh").setExecutor(new CommandSeh());
         getServer().getPluginManager().registerEvents(new ExplosionsListener(), this);
         loadLang();
     }
