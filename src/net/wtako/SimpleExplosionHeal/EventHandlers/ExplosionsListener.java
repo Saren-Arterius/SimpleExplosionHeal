@@ -56,12 +56,19 @@ public class ExplosionsListener implements Listener {
             final Location loc = block.getLocation();
             final String world = loc.getWorld().getName();
 
+            int healTime;
+            if (mat == Material.CARPET || mat == Material.SIGN_POST || mat == Material.WALL_SIGN) {
+                healTime = FullHealTime + HealDelay + new Random().nextInt(FullHealTime) + HealDelay;
+            } else {
+                healTime = new Random().nextInt(FullHealTime) + HealDelay;
+            }
+
             Main.getInstance().getServer().getScheduler().scheduleSyncDelayedTask(Main.getInstance(), new Runnable() {
                 @Override
                 public void run() {
                     Main.getInstance().getServer().getWorld(world).getBlockAt(loc).setType(mat);
                 }
-            }, new Random().nextInt(FullHealTime) + HealDelay);
+            }, healTime);
             if (AllowTNTChainReaction) {
                 if (block.getType() != Material.TNT) {
                     block.setType(Material.AIR);
