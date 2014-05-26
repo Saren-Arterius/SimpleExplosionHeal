@@ -12,6 +12,7 @@ public enum Lang {
 
     TITLE("title", "[SimpleExplosionHeal]"),
     PLUGIN_RELOADED("plugin-reloaded", "&aPlugin reloaded."),
+    ERROR_HOOKING("error-hooking", "&4Error in hooking into {0}!"),
     NO_PERMISSION_COMMAND("no-permission-command", "&cYou are not allowed to use this command.");
 
     private String                   path;

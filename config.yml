@@ -8,4 +8,5 @@ variable:
     FullHealTime: 40
     
 system:
-    PluginVersion: 0.0.1
+    WorldGuardSupport: Yes
+    PluginVersion: 0.0.2
